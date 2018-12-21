@@ -1,0 +1,41 @@
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-align: right;
+}
+
+header p {
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.541176);
+  color: rgb(34, 34, 34);
+}
+
+footer p {
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+footer .footer_left, footer .footer_right {
+  width: 50%;
+  position: absolute;
+  color: inherit;
+  background-color: inherit;
+}
+
+footer .footer_left {
+  left: 0px;
+  text-align: left;
+}
+
+footer .footer_right {
+  right: 0px;
+  text-align: right;
+}
